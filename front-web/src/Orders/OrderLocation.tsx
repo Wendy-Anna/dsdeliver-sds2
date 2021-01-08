@@ -51,7 +51,7 @@ function OrderLocation({onChangeLocation}: Props){
         latitude: place.position.lat,
         longitude: place.position.lng,
         address: place.label!
-     });
+      });
     };
 
 
